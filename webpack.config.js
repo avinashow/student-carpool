@@ -93,7 +93,9 @@ module.exports = {
 
     resolve: {
       alias: {
-        _: path.resolve(__dirname, 'src')
+        _: path.resolve(__dirname, 'src'),
+        _pages: path.resolve(__dirname, 'src/views/pages'),
+        _components: path.resolve(__dirname, 'src/views/components'),
       }
     },
 

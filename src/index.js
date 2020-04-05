@@ -3,15 +3,15 @@
 import './styles.css';
 require('./mystyles.scss');
 
-import Home         from './views/pages/Home.js';
-import About        from './views/pages/About.js';
-import Error404     from './views/pages/Error404.js';
-import Signin       from './views/pages/Signin.js';
-import Signout      from './views/pages/Signup.js';
-import PostShow     from './views/pages/PostShow.js';
+import Home         from '_pages/Home.js';
+import About        from '_pages/About.js';
+import Error404     from '_pages/Error404.js';
+import Signin       from '_pages/Signin.js';
+import Signout      from '_pages/Signup.js';
+import PostShow     from '_pages/PostShow.js';
 
-import Navbar       from './views/components/Navbar.js';
-import Bottombar    from './views/components/Bottombar.js';
+import Navbar       from '_components/Navbar.js';
+import Bottombar    from '_components/Bottombar.js';
 
 import Utils        from './services/Utils.js';
 import SlideToggle        from './services/SlideToggle.js';
