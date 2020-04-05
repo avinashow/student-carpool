@@ -91,5 +91,11 @@ module.exports = {
       }),
     ],
 
+    resolve: {
+      alias: {
+        _: path.resolve(__dirname, 'src')
+      }
+    },
+
     watch: true
   }
