@@ -5,8 +5,7 @@
   "description": "",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --hot",
-    
+    "start": "webpack-dev-server --hot", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

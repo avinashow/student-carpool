@@ -91,6 +91,7 @@ module.exports = {
       }),
     ],
 
+
     resolve: {
       alias: {
         _: path.resolve(__dirname, 'src'),
@@ -98,6 +99,6 @@ module.exports = {
         _components: path.resolve(__dirname, 'src/views/components'),
       }
     },
-
+ 
     watch: true
   }
